@@ -1,7 +1,8 @@
 /*eslint-env node */
 module.exports = {
   someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    'Alt': ['alt/introduction'],
+    'Primeiros Passos': ['gettingStarted/registering'],
+    'Guias': ['guides/configuringACatalogue'],
   },
 };
