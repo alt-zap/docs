@@ -1,29 +1,41 @@
 /*eslint-env node */
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Alt Docs',
+  tagline: 'Portal de documentação do Alt',
+  url: 'https://alt-zap.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'alt',
+  projectName: 'docs',
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Alt Docs',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Alt',
         src: 'img/logo.svg',
       },
       items: [
         {
           to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
+          activeBasePath: 'none',
+          label: 'Introdução',
           position: 'left',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          to: 'docs/gettingStarted',
+          activeBasePath: 'none',
+          label: 'Primeiros Passos',
+          position: 'left',
+        },
+        {
+          to: 'docs/guides',
+          activeBasePath: 'none',
+          label: 'Guias',
+          position: 'left',
+        },
+        {
+          href: 'https://github.com/alt-zap',
           label: 'GitHub',
           position: 'right',
         },
@@ -33,50 +45,37 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Documentação',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Introdução',
               to: 'docs/',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Primeiros Passos',
+              to: 'docs/gettingStarted/',
+            },
+            {
+              label: 'Guias',
+              to: 'docs/guides/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Mais',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Alt Zap',
+              to: 'https://alt-zap.vercel.app/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Estamos no GitHub',
+              href: 'https://github.com/alt-zap',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Alt Zap © ${new Date().getFullYear()}. Feito com Docusaurus.`,
     },
   },
   presets: [
@@ -85,9 +84,8 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          // editUrl:
+          //   'https://github.com/alt-zap/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
