@@ -1,8 +1,8 @@
 /*eslint-env node */
 module.exports = {
   title: 'Alt Docs',
-  tagline: 'Portal de documentação do Alt',
-  url: 'https://alt-zap.vercel.app/',
+  tagline: 'O portal de documentação oficial da plataforma Alt',
+  url: 'https://docs.alt.app.br/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
