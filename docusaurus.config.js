@@ -9,6 +9,9 @@ module.exports = {
   organizationName: 'alt',
   projectName: 'docs',
   themeConfig: {
+    colorMode: {
+      disableSwitch: true
+    },
     navbar: {
       title: 'Alt Docs',
       logo: {
