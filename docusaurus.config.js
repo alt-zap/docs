@@ -91,7 +91,7 @@ module.exports = {
           //   'https://github.com/alt-zap/docs',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/main.css'),
         },
       },
     ],
