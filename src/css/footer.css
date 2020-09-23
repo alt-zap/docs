@@ -1,0 +1,42 @@
+.footer__link-item:hover {
+  color: var(--ifm-color-primary-lightest);
+}
+
+.copyright-container {
+  margin-top: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  text-align: center;
+}
+
+.logo-container {
+  margin-bottom: 0.2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container .footer-logo {
+  height: 1rem;
+  margin-right: 0.4rem;
+}
+
+.logo-container .org-name {
+  font-size: 1.1rem;
+}
+
+.org-description {
+  max-width: 15rem;
+
+  font-size: 0.9rem;
+  color: var(--ifm-color-secondary-darker);
+}
+
+.full-copyright {
+  font-size: 0.9rem;
+}

@@ -87,16 +87,38 @@ module.exports = {
           items: [
             {
               label: 'Alt Zap',
-              to: 'https://alt-zap.vercel.app/',
+              href: 'https://alt-zap.vercel.app',
+
             },
             {
-              label: 'Estamos no GitHub',
+              label: 'GitHub',
               href: 'https://github.com/alt-zap',
             },
           ],
         },
       ],
-      copyright: `Alt Zap © ${new Date().getFullYear()}. Feito com Docusaurus.`,
+      copyright: `
+        <div class="copyright-container">
+          <div class="logo-container">
+            <img
+              class="footer-logo"
+              alt="Alt Zap Logo"
+              src="/img/logo.svg"
+            />
+            <strong class="org-name">
+              Alt Zap
+            </strong>
+          </div>
+    
+          <p class="org-description">
+            Compartilhe seus produtos e receba pedidos pelo Whatsapp
+          </p>
+    
+          <p class="full-copyright">
+            Copyright © ${new Date().getFullYear()} Alt Zap. Feito com Docusaurus.
+          </p>
+        </div>
+      `,
     },
   },
   presets: [
