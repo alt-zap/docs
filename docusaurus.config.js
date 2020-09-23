@@ -13,6 +13,7 @@ module.exports = {
       disableSwitch: true
     },
     navbar: {
+      style: 'primary',
       title: 'Alt Docs',
       logo: {
         alt: 'Alt',
@@ -21,26 +22,43 @@ module.exports = {
       items: [
         {
           to: 'docs/',
-          activeBasePath: 'none',
-          label: 'Introdução',
+          label: 'Documentação',
           position: 'left',
+          items: [
+            {
+              to: 'docs/',
+              label: 'Introdução',
+              position: 'left',
+            },
+            {
+              to: 'docs/gettingStarted',
+              label: 'Primeiros Passos',
+              position: 'left',
+            },
+            {
+              to: 'docs/guides',
+              label: 'Guias',
+              position: 'left',
+            },
+          ]
         },
         {
-          to: 'docs/gettingStarted',
-          activeBasePath: 'none',
-          label: 'Primeiros Passos',
-          position: 'left',
-        },
-        {
-          to: 'docs/guides',
-          activeBasePath: 'none',
-          label: 'Guias',
-          position: 'left',
+          href: 'https://alt-zap.vercel.app',
+          label: 'Alt Zap',
+          position: 'right',
+          className: 'altzap-link'
         },
         {
           href: 'https://github.com/alt-zap',
           label: 'GitHub',
           position: 'right',
+          className: 'github-link'
+        },
+        {
+          to: 'docs/',
+          label: 'Saiba mais',
+          position: 'right',
+          className: 'learn-more-link button button--secondary button--lg'
         },
       ],
     },
