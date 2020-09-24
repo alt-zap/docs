@@ -1,0 +1,52 @@
+.hero-banner {
+  padding: 4rem 0;
+  text-align: center;
+
+  background-color: var(--ifm-color-secondary-dark);
+}
+
+.hero-banner .container {
+  max-width: 26rem;
+  margin: 0 auto;
+}
+
+.hero__title {
+  margin-bottom: 0.7rem;
+}
+
+.hero__subtitle {
+  margin-bottom: 2.2rem;
+  font-size: 1.3rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.explore-button {
+  padding: 0.6rem 2rem;
+  border: 0;
+
+  font-size: 1.1rem;
+}
+
+.explore-button:hover {
+  background-color: var(--ifm-color-primary-light);
+}
+
+.about-section {
+  padding: 5rem 0;
+  background-color: var(--ifm-color-secondary);
+}
+
+.about-section .container {
+  width: 90%;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.about-section .container .description {
+  margin-bottom: 0;
+}
