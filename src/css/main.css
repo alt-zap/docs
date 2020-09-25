@@ -1,0 +1,28 @@
+@import './navbar.css';
+@import './footer.css';
+
+:root {
+  --ifm-color-primary: #001529;
+  --ifm-color-primary-dark: #000810;
+  --ifm-color-primary-darker: #000204;
+  --ifm-color-primary-darkest: #000000;
+  --ifm-color-primary-light: #00264a;
+  --ifm-color-primary-lighter: #004990;
+  --ifm-color-primary-lightest: #1890ff;
+  --ifm-color-secondary: #f0f2f5;
+  --ifm-color-secondary-dark: #e1e5eb;
+  --ifm-color-secondary-darker: #d3d9e2;
+  --ifm-color-secondary-darkest: #b6c0ce;
+  --ifm-color-secondary-light: #ffffff;
+  
+  --ifm-heading-color: #102130;
+
+  --ifm-code-font-size: 95%;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}

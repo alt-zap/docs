@@ -1,0 +1,78 @@
+.navbar {
+  align-items: center;
+  padding: 2.4rem 1.6rem;
+}
+
+.navbar__logo {
+  height: 70%;
+}
+
+.navbar__title {
+  color: var(--ifm-color-secondary);
+  font-size: 1.3rem;
+}
+
+.navbar__title:hover {
+  color: var(--ifm-color-secondary-darker);
+}
+
+.navbar__items {
+  align-items: flex-start;
+}
+
+.navbar__items .navbar__toggle {
+  margin-right: 1rem;
+}
+
+.navbar__items .navbar__toggle svg path {
+  stroke: var(--ifm-color-secondary-dark);
+}
+
+.navbar__link {
+  color: var(--ifm-color-secondary);
+  transition: opacity 0.2s;
+}
+
+.navbar__link:hover {
+  color: var(--ifm-color-secondary);
+  opacity: 0.8;
+}
+
+.navbar__link + .navbar__link {
+  margin-left: 1rem;
+}
+
+.navbar__link.github-link,
+.navbar__link.altzap-link {
+  padding-left: 1.7rem;
+
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.navbar__link.github-link {
+  background-image: url('/img/github.svg');
+  background-size: auto 60%;
+}
+
+.navbar__link.altzap-link {
+  background-image: url('/img/logo.svg');
+  background-size: auto 50%;
+}
+
+.learn-more-link {
+  text-transform: uppercase;
+  font-size: 1rem;
+  transition: 0.2s;
+}
+
+.learn-more-link:hover {
+  color: var(--ifm-color-primary-darkest);
+  background-color: var(--ifm-color-secondary);
+  opacity: 0.85;
+}
+
+.menu__link--active,
+.menu__link--active:hover {
+  color: var(--ifm-menu-color);
+}
