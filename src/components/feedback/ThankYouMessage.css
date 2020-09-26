@@ -1,0 +1,4 @@
+.thankYouMessage > p {
+  color: var(--ifm-color-primary);
+  opacity: 0.8;
+}

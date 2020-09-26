@@ -1,0 +1,70 @@
+.feedbackForm__ratingField {
+  margin-bottom: 0.5rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.feedbackForm__ratingField > p {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.feedbackForm__radioGroup {
+  display: flex;
+  align-items: center;
+}
+
+.feedbackForm__radioGroup > input[name=user-rating] {
+  display: none;
+}
+
+.feedbackForm__userReviewLabel {
+  width: 2.7rem;
+  height: 2.7rem;
+
+  margin-left: 0.8rem;
+  border-radius: 1.35rem;
+
+  font-size: 0.001px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--ifm-color-secondary);
+  transition: background-color 0.2s;
+}
+
+.feedbackForm__userReviewLabel:hover {
+  cursor: pointer;
+}
+
+.feedbackForm__userReviewLabel.negative > img {
+  padding-top: 0.2rem;
+}
+
+.feedbackForm__userReviewLabel.positive:hover {
+  background-color: #019d353f;
+}
+
+.feedbackForm__userReviewLabel.positive.checked {
+  background-color: #019d356a;
+}
+
+.feedbackForm__userReviewLabel.negative:hover {
+  background-color: #E639463f;
+}
+
+.feedbackForm__userReviewLabel.negative.checked {
+  background-color: #E639466a;
+}
+
+.feedbackForm__userReviewLabel.checked > img {
+  filter: brightness(0.7) saturate(1.5);
+}
+
+.feedbackForm__description {
+  font-weight: 300;
+  font-size: 0.95rem;
+}
