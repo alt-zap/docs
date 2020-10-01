@@ -2,7 +2,7 @@
 module.exports = {
   someSidebar: {
     'Alt': ['alt/introduction'],
-    'Primeiros Passos': ['gettingStarted/registering'],
-    'Guias': ['guides/configuringACatalogue'],
+    'Primeiros Passos': ['getting-started/registering'],
+    'Guias': ['guides/configuring-a-catalogue'],
   },
 };

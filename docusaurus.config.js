@@ -31,7 +31,7 @@ module.exports = {
               position: 'left',
             },
             {
-              to: 'docs/gettingStarted',
+              to: 'docs/getting-started',
               label: 'Primeiros Passos',
               position: 'left',
             },
@@ -74,7 +74,7 @@ module.exports = {
             },
             {
               label: 'Primeiros Passos',
-              to: 'docs/gettingStarted/',
+              to: 'docs/getting-started/',
             },
             {
               label: 'Guias',
@@ -109,11 +109,11 @@ module.exports = {
               Alt Zap
             </strong>
           </div>
-    
+
           <p class="org-description">
             Compartilhe seus produtos e receba pedidos pelo Whatsapp
           </p>
-    
+
           <p class="full-copyright">
             Copyright © ${new Date().getFullYear()} Alt Zap. Feito com Docusaurus.
           </p>
