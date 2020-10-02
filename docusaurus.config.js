@@ -136,4 +136,7 @@ module.exports = {
       },
     ],
   ],
+  plugins: [
+    require.resolve('./dev/webpack-config')
+  ]
 };
