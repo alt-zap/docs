@@ -15,4 +15,12 @@ const firebaseConfig = {
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 const db = firebaseApp.firestore();
 
+export const documentExists = async (documentReference) => {
+  return (await documentReference.get()).exists;
+};
+
+export const createDocument = async (documentReference, fields = {}) => {
+  await documentReference.set(fields);
+};
+
 export default db;
