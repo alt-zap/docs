@@ -26,8 +26,18 @@ function Feedback({ pageId, title }) {
 
       pageDocumentReference.collection('reviews').add({
         ...feedbackData,
-        timestamp: firebase.firestore.FieldValue.serverTimestamp()
+        timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+        pending: true
       });
+
+      pageDocumentReference.update(
+        `${feedbackData.userReview}Reviews`,
+        firebase.firestore.FieldValue.increment(1)
+      );
+      pageDocumentReference.update(
+        'pendingReviews',
+        firebase.firestore.FieldValue.increment(1)
+      );
     } catch (error) {
       console.error(error);
     }

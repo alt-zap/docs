@@ -1,13 +1,36 @@
-.feedbackForm__ratingField {
-  margin-bottom: 0.5rem;
+.feedbackForm {
+  width: 100%;
+  height: 5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  transition: height 0.25s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.feedbackForm.expand {
+  height: 14rem;
+  overflow-y: hidden;
+}
+
+.feedbackForm.fadeOut {
+  animation: fade-out 0.25s forwards;
+}
+
+.feedbackForm__userReviewContainer {
+  width: 100%;
+  max-width: 18rem;
+  margin-bottom: 0.3rem;
 
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
-.feedbackForm__ratingField > p {
+.feedbackForm__userReviewContainer > p {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .feedbackForm__radioGroup {
@@ -15,13 +38,13 @@
   align-items: center;
 }
 
-.feedbackForm__radioGroup > input[name=user-rating] {
+.feedbackForm__radioGroup > input[name=user-review] {
   display: none;
 }
 
 .feedbackForm__userReviewLabel {
-  width: 2.7rem;
-  height: 2.7rem;
+  width: 2.5rem;
+  height: 2.5rem;
 
   margin-left: 0.8rem;
   border-radius: 1.35rem;
@@ -36,15 +59,15 @@
   transition: background-color 0.2s;
 }
 
-.feedbackForm__userReviewLabel:hover {
-  cursor: pointer;
-}
-
 .feedbackForm__userReviewLabel.negative > img {
   padding-top: 0.2rem;
 }
 
-.feedbackForm__userReviewLabel.positive:hover {
+.feedbackForm__userReviewLabel.enabled:hover {
+  cursor: pointer;
+}
+
+.feedbackForm__userReviewLabel.enabled.positive:hover {
   background-color: #019d353f;
 }
 
@@ -52,7 +75,7 @@
   background-color: #019d356a;
 }
 
-.feedbackForm__userReviewLabel.negative:hover {
+.feedbackForm__userReviewLabel.enabled.negative:hover {
   background-color: #E639463f;
 }
 
@@ -64,7 +87,106 @@
   filter: brightness(0.7) saturate(1.5);
 }
 
+.feedbackForm__feedbackMessage {
+  width: 100%;
+  max-width: 18rem;
+  height: 6rem;
+  min-height: 6rem;
+  margin: 0.5rem 0 0.75rem;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--ifm-color-secondary-darkest);
+  border-radius: 0.3rem;
+
+  font-family: var(--ifm-font-family-base);
+  font-weight: 300;
+  font-size: 0.95rem;
+
+  resize: none;
+  outline: none;
+
+  animation: fade-in 0.4s;
+
+  background-color: var(--ifm-color-secondary);
+}
+
+.feedbackForm__feedbackMessage:focus {
+  border: 2px solid var(--ifm-color-primary-light);
+  padding: calc(0.65rem - 1px) calc(0.75rem - 1px);
+}
+
+.feedbackForm__submitFeedback {
+  width: 100%;
+  max-width: 9rem;
+  padding: 0.45rem 1rem;
+
+  font-size: 0.9rem;
+  font-family: var(--ifm-font-family-base);
+  font-weight: 500;
+
+  animation: fade-in 0.6s;
+}
+
+.feedbackForm__submitFeedback:hover {
+  background-color: var(--ifm-color-primary-light);
+}
+
 .feedbackForm__description {
   font-weight: 300;
   font-size: 0.95rem;
+
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  .feedbackForm {
+    height: 7rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .feedbackForm {
+    height: 9rem;
+  }
+}
+
+@media (max-width: 250px) {
+  .feedbackForm {
+    height: 10rem;
+  }
+
+  .feedbackForm.expand {
+    height: 16rem;
+  }
+}
+
+@media (max-width: 230px) {
+  .feedbackForm {
+    height: 12.5rem;
+  }
+
+  .feedbackForm.expand {
+    height: 18rem;
+  }
+}
+
+@media (max-width: 215px) {
+  .feedbackForm__userReviewContainer > p {
+    font-size: 1rem;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  } to {
+    opacity: 0;
+  }
 }
