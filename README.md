@@ -54,7 +54,7 @@ Esse comando abrirá uma nova janela no seu navegador. Boa parte das mudanças f
     - `id`: um identificador único para a página. Em geral, o id será o nome do arquivo sem a extensão.
     - `title`: o título da página.
     - `slug`: um slug para a página. Se não precisar de um slug customizado, você pode remover essa linha, e o slug padrão será `/docs/<id da página>`.
-4. Adicione uma referência da sua página no arquivo `sidebar.js`. As referências na sidebar seguem a seguinte estrutura:
+4. Adicione **o id de sua página** no arquivo `sidebar.js`. As referências na sidebar seguem a seguinte estrutura:
     ```typescript
     {
       [nomeDaCategoria]: referênciaDaPágina[]
