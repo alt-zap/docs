@@ -43,7 +43,7 @@ function Home() {
           <div className="container">
             <p className="description">
               O&nbsp;
-              <ExternalLink href="https://alt-zap.vercel.app">
+              <ExternalLink href="https://alt.app.br">
                 <b>Alt Zap</b>
               </ExternalLink>
               &nbsp;é uma <strong>plataforma gratuita</strong> criada

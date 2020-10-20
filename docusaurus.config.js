@@ -43,7 +43,7 @@ module.exports = {
           ]
         },
         {
-          href: 'https://alt-zap.vercel.app',
+          href: 'https://alt.app.br',
           label: 'Alt Zap',
           position: 'right',
           className: 'altzap-link'
@@ -87,7 +87,7 @@ module.exports = {
           items: [
             {
               label: 'Alt Zap',
-              href: 'https://alt-zap.vercel.app',
+              href: 'https://alt.app.br',
 
             },
             {
