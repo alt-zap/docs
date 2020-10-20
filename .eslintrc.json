@@ -37,6 +37,15 @@
       "error",
       "always"
     ],
+    "comma-dangle": ["warn", "always-multiline"],
+    "no-unused-vars": [
+        "warn",
+        {
+          "vars": "all",
+          "args": "after-used",
+          "ignoreRestSiblings": false
+        }
+     ],
     "react/prop-types": 0
   }
 }
