@@ -1,7 +1,6 @@
 ---
-id: configuringACatalogue
+id: configurando-um-catalogo
 title: Configurando um catálogo de produtos
-slug: /guides
 ---
 
 :::note Nota

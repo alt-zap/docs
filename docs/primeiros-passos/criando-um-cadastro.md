@@ -1,7 +1,6 @@
 ---
-id: registering
+id: criando-um-cadastro
 title: Criando um cadastro
-slug: /gettingStarted
 ---
 
 :::note Nota

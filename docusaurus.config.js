@@ -31,12 +31,12 @@ module.exports = {
               position: 'left',
             },
             {
-              to: 'docs/gettingStarted',
+              to: 'docs/primeiros-passos/criando-um-cadastro',
               label: 'Primeiros Passos',
               position: 'left',
             },
             {
-              to: 'docs/guides',
+              to: 'docs/guias/configurando-um-catalogo',
               label: 'Guias',
               position: 'left',
             },
@@ -74,11 +74,11 @@ module.exports = {
             },
             {
               label: 'Primeiros Passos',
-              to: 'docs/gettingStarted/',
+              to: 'docs/primeiros-passos/criando-um-cadastro/'
             },
             {
               label: 'Guias',
-              to: 'docs/guides/',
+              to: 'docs/guias/configurando-um-catalogo/'
             },
           ],
         },
