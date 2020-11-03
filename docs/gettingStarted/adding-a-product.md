@@ -4,7 +4,7 @@ title: Adicionando Produtos no seu negócio
 slug: /adicionando-um-produto-no-alt
 ---
 
-Após ter [criado a página do seu negócio no Alt](/criando-um-negocio-no-alt), você deve começar a **cadastrar o seu catálogo de produtos**. São esses produtos que aparecerão no seu Menu (o seu site que clientes acessarão).
+Após ter [criado a página do seu negócio no Alt](/docs/criando-um-negocio-no-alt), você deve começar a **cadastrar o seu catálogo de produtos**. São esses produtos que aparecerão no seu Menu (o seu site que clientes acessarão).
 
 Para organização do seu cardápio, oferecemos duas "entidades", ou seja, duas coisas que você deve cadastrar para, no final, conseguir vender:
 
