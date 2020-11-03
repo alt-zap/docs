@@ -30,13 +30,13 @@ function Feedback({ pageId, title }) {
         pending: true
       });
 
+      const incrementFieldValueBy = firebase.firestore.FieldValue.increment;
+
       pageDocumentReference.update(
-        `${feedbackData.userReview}Reviews`,
-        firebase.firestore.FieldValue.increment(1)
-      );
-      pageDocumentReference.update(
-        'pendingReviews',
-        firebase.firestore.FieldValue.increment(1)
+        {
+          [`${feedbackData.userReview}Reviews`]: incrementFieldValueBy(1),
+          ['pendingReviews']: incrementFieldValueBy(1)
+        }
       );
     } catch (error) {
       console.error(error);
