@@ -1,12 +1,11 @@
 ---
 id: configurando-opcoes-de-montagem-de-produto
 title: Configurando opções de montagem de um produto
-slug: configurando-opcoes-de-montagem-de-produto
 ---
 
 ## Introdução
 
-Um recurso importantíssimo na plataforma Alt é a configuração de **opções de montagem** em um produto, possibilitando a criação de um cardápio complexo e versátil. Com esta funcionalidade, é possível ter configurações como **pizza com dois sabores**, **combo de hambúrguer** ou até **açaí com adicionais**. Na prática, as opções de montagem oferecem **escolhas para o cliente** na hora de fazer pedido em seu estabelecimento.
+Um recurso importantíssimo na plataforma Alt é a configuração de **opções de montagem** em um produto, possibilitando a criação de um catálogo complexo e versátil. Com esta funcionalidade, é possível ter configurações como **pizza com dois sabores**, **combo de hambúrguer** ou até **açaí com adicionais**. Na prática, as opções de montagem oferecem **escolhas para o cliente** na hora de fazer um pedido em seu estabelecimento.
 
 <p align="center">
   <img class="framed" src="https://user-images.githubusercontent.com/18706156/97820643-d38afd80-1c8d-11eb-94dc-4a79dba03ea2.png
@@ -20,7 +19,7 @@ Para configurar opções de montagem, é preciso que você tenha pelo menos uma 
 
 ### Material Relacionado
 
-- [Como adicionar produtos](#)
+- [Como adicionar produtos](/adicionando-um-produto-no-alt)
 
 ## Tutorial
 
@@ -59,7 +58,7 @@ Primeiramente, vamos configurar uma opção de **Tamanho** para o produto. Logo 
 
 <p align="center">
   <img class="framed"
-  src="https://user-images.githubusercontent.com/18706156/97863215-64d98e80-1ce5-11eb-80d4-b482fe117575.png" width="300" alt="Menu Final" />
+  src="https://user-images.githubusercontent.com/18706156/97863215-64d98e80-1ce5-11eb-80d4-b482fe117575.png" width="400" alt="Menu Final" />
 </p>
 
 ## Configurações
@@ -72,7 +71,7 @@ Um "Campo" representa uma opção de montagem/customização para aquele produto
 
 <p align="center">
   <img class="framed"
-  src="https://user-images.githubusercontent.com/18706156/97863723-314b3400-1ce6-11eb-9f72-8c0026baf90a.png" width="300" alt="Cadastro de Campo" />
+  src="https://user-images.githubusercontent.com/18706156/97863723-314b3400-1ce6-11eb-9f72-8c0026baf90a.png" width="400" alt="Cadastro de Campo" />
 </p>
 
 Veja detalhes sobre cada uma destas configurações.
@@ -91,7 +90,7 @@ Cada campo necessita ter "opções" cadastradas. Esses são os valores que os cl
 
 <p align="center">
   <img class="framed"
-  src="https://user-images.githubusercontent.com/18706156/97866887-8f2e4a80-1ceb-11eb-8a72-cb3a025068f4.png" width="300" alt="Cadastro de Opção" />
+  src="https://user-images.githubusercontent.com/18706156/97866887-8f2e4a80-1ceb-11eb-8a72-cb3a025068f4.png" width="400" alt="Cadastro de Opção" />
 </p>
 
 Vamos analisar o que cada um desses campos significa.
@@ -123,7 +122,7 @@ Veja alguns exemplos de configurações de Mínimo/Máximo/Tipo:
 
 <p align="center">
   <img class="framed"
-  src="https://user-images.githubusercontent.com/18706156/97934487-a2c1cb80-1d54-11eb-9da6-a9c4615e5e22.png" width="300" alt="Opção Temperos" />
+  src="https://user-images.githubusercontent.com/18706156/97934487-a2c1cb80-1d54-11eb-9da6-a9c4615e5e22.png" width="400" alt="Opção Temperos" />
 </p>
 <p align="center">
 <b>Tipo:</b> Seleção Simples / <b>Mínimo: </b> 0 / <b>Máximo:</b> 3
@@ -131,7 +130,7 @@ Veja alguns exemplos de configurações de Mínimo/Máximo/Tipo:
 
 <p align="center">
   <img class="framed"
-  src="https://user-images.githubusercontent.com/18706156/97934546-cbe25c00-1d54-11eb-9ac1-9dcbdbde7e43.png" width="300" alt="Opção Adicionais" />
+  src="https://user-images.githubusercontent.com/18706156/97934546-cbe25c00-1d54-11eb-9ac1-9dcbdbde7e43.png" width="400" alt="Opção Adicionais" />
 </p>
 <p align="center">
 <b>Tipo:</b> Seleção Múltipla / <b>Mínimo: </b> 1 / <b>Máximo:</b> 3
@@ -139,7 +138,7 @@ Veja alguns exemplos de configurações de Mínimo/Máximo/Tipo:
 
 <p align="center">
   <img class="framed"
-  src="https://user-images.githubusercontent.com/18706156/97934622-f6ccb000-1d54-11eb-8a87-1ca7200505dd.png" width="300" alt="Opção Temperos" />
+  src="https://user-images.githubusercontent.com/18706156/97934622-f6ccb000-1d54-11eb-8a87-1ca7200505dd.png" width="400" alt="Opção Temperos" />
 </p>
 <p align="center">
 <b>Tipo:</b> Seleção Simples / <b>Mínimo: </b> 1 / <b>Máximo:</b> 1
@@ -160,6 +159,22 @@ Com esta configuração, o cliente tem a opção de não selecionar nenhum adici
 
 ### Quantidade Inicial
 
-O campo Quantidade Inicial, configurável em cada opção de um campo, indica a seleção "padrão" para aquele campo, especificamente **a quantidade de vezes que aquela opção estará selecionada**. Para campos onde uma opção só pode estar marcada ou desmarcada, para selecionar uma opção inicialmente basta configurá-la sua "Quantidade Inicial" 1.
+O campo Quantidade Inicial, configurável em cada opção de um campo, indica a seleção "padrão" para aquele campo, especificamente **a quantidade que aquela opção estará selecionada**. Para campos onde uma opção só pode estar marcada ou desmarcada, para selecionr uma opção inicialmente basta configurar sua "Quantidade Inicial" com 1.
 
 Se, por exemplo, você deseja que o cliente já tenha uma opção do campo selecionada assim que abrir a janela do produto, você deve configurar a Quantidade Inicial.
+
+### Preço da Opção
+
+Além do Campo poder ter um Preço adicional, cada uma das opções pode ter seu próprio preço, sendo acrescido no valor final do produto caso o cliente selecione tal opção. Em campos que permitem a repetição, o preço final somado será a multiplicação entre o preço do campo e a quantidade selecionada.
+
+<p align="center">
+  <img class="framed"
+  src="https://user-images.githubusercontent.com/18706156/97935442-5330cf00-1d57-11eb-9af4-45625ae0da6f.png" width="400" alt="Opção Temperos" />
+</p>
+<p align="center">
+<i>Este tipo de configuração/seleção adicionaria R$ 1,50 ao valor do produto</i>
+</p>
+
+## Funcionalidades futuras
+
+- Estaremos lançando no futuro um outro tipo de Opção de Montagem que permitirá a configuração livre por parte do cliente, permitindo customizações como Nome de Camisa com texto livre.
