@@ -8,7 +8,7 @@ slug: /criando-um-negocio-no-alt
 
 ## Vamos lá!
 
-1. Acesse [https://alt.app.br](https://alt.app.br)
+1. Acesse [https://alt.app.br](https://alt.app.br).
 2. Clique no botão **Login**.
 3. Após isso, você precisará efetuar um login com sua conta no Google. **É importante que você tenha acesso a essa conta.**
 

@@ -62,4 +62,4 @@ Na sub-sessão "Oferta" do cadastro de produto, você encontra 03 campos:
 
 Além dessa configuração básica de um produto, o Alt também permite que você configure **variações e customizações**, permitindo criar produtos como **"Combo de Hambúrguer"** ou **"Pizza de Dois Sabores"**, oferecendo opções para o cliente escolher na hora da compra. 
 
-Para saber mais, leia [Configurando opções de montagem de um produto](/configurando-opcoes-de-montagem-de-produto).
+Para saber mais, leia [Configurando opções de montagem de um produto](/docs/guides/configurando-opcoes-de-montagem-de-produto).

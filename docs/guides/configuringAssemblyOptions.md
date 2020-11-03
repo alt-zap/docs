@@ -19,7 +19,7 @@ Para configurar opções de montagem, é preciso que você tenha pelo menos uma 
 
 ### Material Relacionado
 
-- [Como adicionar produtos](/adicionando-um-produto-no-alt)
+- [Como adicionar produtos](/docs/adicionando-um-produto-no-alt)
 
 ## Tutorial
 

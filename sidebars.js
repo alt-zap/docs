@@ -1,12 +1,14 @@
 /*eslint-env node */
 module.exports = {
   someSidebar: {
-    Alt: ["alt/introduction"],
-    "Primeiros Passos": ["gettingStarted/registering"],
+    'O que é o Alt': ['alt/introduction'],
+    'Primeiros Passos': [
+      'gettingStarted/onboarding',
+      'gettingStarted/adding-a-product',
+    ],
     Guias: [
-      "guides/configuringACatalogue",
-      "guides/ordenando-produtos-e-categorias",
-      "guides/configurando-opcoes-de-montagem-de-produto",
+      'guides/ordenando-produtos-e-categorias',
+      'guides/configurando-opcoes-de-montagem-de-produto',
     ],
   },
 };
