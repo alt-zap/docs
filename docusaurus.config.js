@@ -31,7 +31,7 @@ module.exports = {
               position: 'left',
             },
             {
-              to: 'docs/gettingStarted',
+              to: 'docs/criando-um-negocio-no-alt',
               label: 'Primeiros Passos',
               position: 'left',
             },
@@ -74,7 +74,7 @@ module.exports = {
             },
             {
               label: 'Primeiros Passos',
-              to: 'docs/gettingStarted/',
+              to: 'docs/criando-um-negocio-no-alt/',
             },
             {
               label: 'Guias',
