@@ -13,7 +13,7 @@ Para organização do seu cardápio, oferecemos duas "entidades", ou seja, duas 
 
 ## Requisitos
 
-Para começar a cadastras categorias e produtos, você deve primeiro ter **já cadastrado seu negócio no Alt** e estar logado no nosso painel de administração (em `portal.alt.app.br`). Caso não tenha feito isso, leia [Criando um negócio no Alt](/criando-um-negocio-no-alt).
+Para começar a cadastras categorias e produtos, você deve primeiro ter **já cadastrado seu negócio no Alt** e estar logado no nosso painel de administração (em `portal.alt.app.br`). Caso não tenha feito isso, leia [Criando um negócio no Alt](/docs/criando-um-negocio-no-alt).
 
 ## Tutorial
 
