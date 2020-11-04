@@ -15,6 +15,7 @@
     "@docusaurus/preset-classic": "2.0.0-alpha.64",
     "@mdx-js/react": "^1.5.8",
     "clsx": "^1.1.1",
+    "eslint-config-prettier": "^6.15.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },
@@ -32,6 +33,7 @@
   },
   "devDependencies": {
     "eslint": "^7.9.0",
-    "eslint-plugin-react": "^7.20.6"
+    "eslint-plugin-react": "^7.20.6",
+    "prettier": "^2.1.2"
   }
 }

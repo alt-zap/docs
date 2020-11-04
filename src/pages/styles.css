@@ -83,3 +83,17 @@
     display: none;
   }
 }
+
+.framed {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+a {
+  color: #067df7;
+}
+
+a:hover {
+  color: #68b5fb;
+}

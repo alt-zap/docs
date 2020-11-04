@@ -1,0 +1,38 @@
+---
+id: onboarding
+title: Criando um negócio no Alt
+slug: /criando-um-negocio-no-alt
+---
+
+É muito simples e gratuito criar um cadastro no Alt! Em poucos minutos você pode já estar vendendo online com um site próprio do seu estabelecimento.
+
+## Vamos lá!
+
+1. Acesse [https://alt.app.br](https://alt.app.br).
+2. Clique no botão **Login**.
+3. Após isso, você precisará efetuar um login com sua conta no Google. **É importante que você tenha acesso a essa conta.**
+
+<p align="center">
+  <img class="framed" src="https://user-images.githubusercontent.com/18706156/97936077-385f5a00-1d59-11eb-8b65-5088d5b4cf89.png" width="300" alt="Home do Alt" />
+</p>
+
+4. Após retornar para o Alt, você deverá preencher alguns dados sobre você. Não se preocupe, seus dados estão seguros conosco.
+
+
+<p align="center">
+  <img class="framed" src="https://user-images.githubusercontent.com/18706156/97936264-b91e5600-1d59-11eb-9271-a720a7d738ee.png" width="300" alt="Cadastro Pessoal" />
+</p>
+
+5. Logo após finalizar seu cadastro, você deve preencher os **dados sobre seu negócio**. O número de Whatsapp configurado será por onde você receberá pedidos.
+
+<p align="center">
+  <img class="framed" src="https://user-images.githubusercontent.com/18706156/97936292-d5ba8e00-1d59-11eb-8c75-0541fb956814.png" width="300" alt="Cadastrando Negócio" />
+</p>
+
+6. Após preencher os dados e clicar em **Salvar**, seu negócio já estará online e acessível na URL que você escolheu (`{sua-url}.alt.app.br`)!
+
+7. Pronto, agora basta começar a cadastras suas Categorias e Produtos!
+
+
+
+
