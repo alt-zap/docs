@@ -19,16 +19,23 @@ function Home() {
       <div className="home-page-wrapper">
         <header className="hero hero-banner">
           <div className="container">
-            <h1 className="hero__title">{siteConfig.title}</h1>
-            <p className="hero__subtitle">{siteConfig.tagline}</p>
-            <div className="buttons">
-              <Link
-                className="button button--primary button--lg explore-button"
-                to={useBaseUrl('docs/')}
-              >
-                Explorar
-              </Link>
+            <div className="hero-content">
+              <h1 className="hero__title">{siteConfig.title}</h1>
+              <p className="hero__subtitle">{siteConfig.tagline}</p>
+              <div className="buttons">
+                <Link
+                  className="button button--primary explore-button"
+                  to={useBaseUrl('docs/')}
+                >
+                  Explorar
+                </Link>
+              </div>
             </div>
+            <img
+              className="hero-image"
+              src={useBaseUrl('img/hero.svg')}
+              alt=""
+            />
           </div>
         </header>
 
@@ -36,7 +43,7 @@ function Home() {
           <div className="container">
             <p className="description">
               O&nbsp;
-              <ExternalLink href="https://alt-zap.vercel.app">
+              <ExternalLink href="https://portal.alt.app.br">
                 <b>Alt Zap</b>
               </ExternalLink>
               &nbsp;é uma <strong>plataforma gratuita</strong> criada

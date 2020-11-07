@@ -31,19 +31,19 @@ module.exports = {
               position: 'left',
             },
             {
-              to: 'docs/getting-started',
+              to: 'docs/criando-um-negocio-no-alt',
               label: 'Primeiros Passos',
               position: 'left',
             },
             {
-              to: 'docs/guides',
+              to: 'docs/guides/ordenando-produtos-e-categorias-no-seu-site',
               label: 'Guias',
               position: 'left',
             },
           ]
         },
         {
-          href: 'https://alt-zap.vercel.app',
+          href: 'https://alt.app.br',
           label: 'Alt Zap',
           position: 'right',
           className: 'altzap-link'
@@ -74,11 +74,11 @@ module.exports = {
             },
             {
               label: 'Primeiros Passos',
-              to: 'docs/getting-started/',
+              to: 'docs/criando-um-negocio-no-alt/',
             },
             {
               label: 'Guias',
-              to: 'docs/guides/',
+              to: 'docs/guides/ordenando-produtos-e-categorias-no-seu-site',
             },
           ],
         },
@@ -87,7 +87,7 @@ module.exports = {
           items: [
             {
               label: 'Alt Zap',
-              href: 'https://alt-zap.vercel.app',
+              href: 'https://portal.alt.app.br',
 
             },
             {
