@@ -98,7 +98,8 @@ function FeedbackForm({ onSubmit }) {
                 : 'Como podemos melhorá-la?'
             }
             onChange={e => setFeedbackMessage(e.target.value)}
-          ></textarea>
+            autoFocus
+          />
 
           <button
             type="submit"
