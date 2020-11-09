@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useCallback, useState } from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 import './FeedbackForm.css';
@@ -9,25 +9,25 @@ function FeedbackForm({ onSubmit }) {
 
   const [feedbackReady, setFeedbackReady] = useState(false);
 
-  const handleFeedbackSubmit = (event) => {
+  const handleFeedbackSubmit = useCallback((event) => {
     event.preventDefault();
     setFeedbackReady(true);
-  };
+  }, []);
 
-  const handleFormAnimationEnd = ({ animationName }) => {
-    if (animationName == 'fade-out') {
-      submitFeedback();
-    }
-  };
-
-  const submitFeedback = () => {
+  const submitFeedback = useCallback(() => {
     const feedbackData = {
       userReview,
       feedbackMessage
     };
 
     onSubmit(feedbackData);
-  };
+  }, [userReview, feedbackMessage, onSubmit]);
+
+  const handleFormAnimationEnd = useCallback(({ animationName }) => {
+    if (animationName == 'fade-out') {
+      submitFeedback();
+    }
+  }, [submitFeedback]);
 
   return (
     <form
