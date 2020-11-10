@@ -1,10 +1,10 @@
 /*eslint-env node */
 module.exports = {
-  someSidebar: {
+  docsSidebar: {
     'O que é o Alt': ['alt/introduction'],
     'Primeiros Passos': [
-      'gettingStarted/onboarding',
-      'gettingStarted/adding-a-product',
+      'getting-started/onboarding',
+      'getting-started/adding-a-product',
     ],
     Guias: [
       'guides/ordenando-produtos-e-categorias',

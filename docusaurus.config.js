@@ -109,11 +109,11 @@ module.exports = {
               Alt Zap
             </strong>
           </div>
-    
+
           <p class="org-description">
             Compartilhe seus produtos e receba pedidos pelo Whatsapp
           </p>
-    
+
           <p class="full-copyright">
             Copyright © ${new Date().getFullYear()} Alt Zap. Feito com Docusaurus.
           </p>
@@ -136,4 +136,7 @@ module.exports = {
       },
     ],
   ],
+  plugins: [
+    require.resolve('./dev/webpack-config')
+  ]
 };

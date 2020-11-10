@@ -1,0 +1,11 @@
+.thankYouMessage > p {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--ifm-color-primary);
+
+  opacity: 0.8;
+}
