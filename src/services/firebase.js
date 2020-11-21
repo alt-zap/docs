@@ -1,5 +1,6 @@
 import firebase from 'firebase/app';
 import 'firebase/firestore';
+import 'firebase/analytics';
 
 const firebaseConfig = {
   apiKey: 'AIzaSyCRK4OknfaWtkw7uO5bW6mFD418eSEH1Wc',
@@ -14,6 +15,10 @@ const firebaseConfig = {
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 const db = firebaseApp.firestore();
+
+if (typeof window != 'undefined') {
+  firebase.analytics();
+}
 
 export const documentExists = async (documentReference) => {
   return (await documentReference.get()).exists;
